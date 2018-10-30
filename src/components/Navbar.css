@@ -1,0 +1,33 @@
+.top-nav-collapse {
+  background-color: #5c5c5c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #5c5c5c !important;
+  }
+}
+
+.navbar-light .navbar-brand{
+  color: #39c1bd;
+}
+
+.navbar-light .navbar-nav .active .nav-link{
+  color: #39c1bd;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #39c1bd;
+}
+
+.navbar-light .navbar-toggler{
+  border-color: #39c1bd;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover, .navbar.navbar-light .navbar-toggler, .navbar.navbar-light form .md-form .form-control{
+  color: #39c1bd;
+}

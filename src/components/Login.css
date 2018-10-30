@@ -1,31 +1,22 @@
-/* Required for full background image */
-
 html,
 body,
 header,
 .view {
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 2500px) {
   html,
   body,
   header,
   .view {
-    height: 1000px;
-  }
-}
-@media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 650px;
+    height: 100vh;
   }
 }
 
 .top-nav-collapse {
-  background-color: #3f51b5 !important;
+  background-color: whitesmoke !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -34,24 +25,113 @@ header,
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #3f51b5 !important;
+    background: whitesmoke !important;
   }
 }
 
-.rgba-gradient {
-  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
-  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
 }
 
 .card {
-  background-color: rgba(126, 123, 215, 0.2);
+    background-color: #3333;
 }
 
 .md-form label {
-  color: #ffffff;
+  color: #39c1bd;
 }
 
 h6 {
   line-height: 1.7;
+}
+
+.row {
+  margin-top: 65px;
+}
+
+.formLogin {
+   float:left;
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   width:290px;
+   margin:auto;
+   text-align:left;
+}
+
+.ancho {
+    border-top: 3px solid #fff;
+    width: 200px;
+}
+.md-form {
+  color: #39c1bd;
+}
+
+a, a.disabled:hover, a:disabled:hover {
+  color: #f8f9fa;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+
+.style {
+    /* background-image: url('https://previews.123rf.com/images/vladayoung/vladayoung1708/vladayoung170800137/84431247-vector-a-patrones-sin-fisuras-de-la-escuela-fondo-de-dise%C3%B1o-educativo-sin-fin.jpg');  */
+    background-color: #333333;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background: #5c5c5c;
+    border-radius: 20px;
+}
+
+.colorFondo {
+    background: #39c1bd;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.sizeText {
+    font-size: 25px;
+}
+
+.sizeBoton {
+    font-size: 15px;
+    color:whitesmoke;
+}
+
+
+.input{
+    color: #39c1bd;
+}
+
+.md-form input[type=email]:focus:not([readonly])+label{
+    color:whitesmoke;
+}
+
+.md-form input[type=password]:focus:not([readonly])+label{
+    color:whitesmoke;
+}
+
+.md-form textarea.md-textarea:focus:not([readonly])+label{
+    box-shadow: 0 1px 0 0#39c1bd ;
 }
