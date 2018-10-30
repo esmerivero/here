@@ -78,7 +78,7 @@ h6 {
 }
 
 a, a.disabled:hover, a:disabled:hover {
-  color: #f8f9fa;
+  color: red;
 }
 
 .title {
@@ -137,6 +137,8 @@ a, a.disabled:hover, a:disabled:hover {
     box-shadow: 0 1px 0 0#39c1bd ;
 }
 
-.form-control {
-    color: whitesmoke;
+.md-form input[type=date]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=text]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]){
+  color:whitesmoke;
 }
+
+
