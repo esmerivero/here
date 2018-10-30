@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import Map from './Map';
+import Nav from './Nav'
 
 export default class Location extends Component{
   constructor(props) {
@@ -37,6 +38,7 @@ export default class Location extends Component{
   render() {
     return (
       <div>
+        <Nav/>
         <input
               className="new-todo"
               value={ this.state.value }
@@ -44,6 +46,6 @@ export default class Location extends Component{
               />
         <Map app_id="jbLwCriKxrWhU3EXwvTB" app_code="ywUqD7DAEsRpp0Sv455e1A" value={this.state.value}/>
       </div>
-    );
+    )
   }
 }

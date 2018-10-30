@@ -1,31 +1,32 @@
-html,
 body,
 header,
+html,
 .view {
-  height: 100%;
   font-family: 'Roboto', sans-serif;
+  height: 100%;
+  
 }
 
 @media (max-width: 2500px) {
-  html,
   body,
   header,
+  html,
   .view {
     height: 100vh;
   }
 }
 
 .top-nav-collapse {
-  background-color: whitesmoke !important;
+  background-color: whitesmoke;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+  background: transparent ;
 }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: whitesmoke !important;
+    background: whitesmoke;
   }
 }
 
@@ -59,13 +60,13 @@ h6 {
 }
 
 .formLogin {
+  cursor:pointer;
+  display:block;
    float:left;
-   padding:2px;
-   cursor:pointer;
-   display:block;
-   width:290px;
    margin:auto;
    text-align:left;
+   padding:2px;
+   width:290px;
 }
 
 .ancho {

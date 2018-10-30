@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Nav from './Nav'
+import './Maps.css';
 
 export default class Map extends Component {
     constructor(props) {
@@ -10,6 +12,11 @@ export default class Map extends Component {
     
     render() {
         return (
+            <div>
+                <div id = "map">
+                <Nav/>
+                </div>
+            
             <img
             src={ this.state.url
                 + '&app_id=' + this.props.app_id
@@ -22,6 +29,7 @@ export default class Map extends Component {
                 + '&poi=19.4045782,-99.1640022, 19.3458581,-99.1041562, 19.417196,-99.159364, 19.413382,-99.171942'
                 }
             alt="Map"/>
+            </div>
         );
     }
   }
