@@ -20,7 +20,7 @@ class Nav extends Component {
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                 <a className="nav-link" href="#">Inicio
-                    <span className="sr-only"><Ruta/></span>
+                    <span className="sr-only"></span>
                 </a>
                 </li>
                 <li className="nav-item">
