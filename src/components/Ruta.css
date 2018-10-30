@@ -1,34 +1,34 @@
+
+html,
 body,
 header,
-html,
 .view {
-  font-family: 'Roboto', sans-serif;
   height: 100%;
-  
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width: 2500px) {
+  html,
   body,
   header,
-  html,
   .view {
     height: 100vh;
   }
 }
 
 .top-nav-collapse {
-  background-color: whitesmoke;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent ;
-}
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: whitesmoke;
+    background-color: #39c1bd !important;
   }
-}
+  
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+  
+  @media (max-width: 2500px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #39c1bd !important;
+    }
+  }
 
 h1 {
   letter-spacing: 8px;
@@ -60,13 +60,13 @@ h6 {
 }
 
 .formLogin {
-  cursor:pointer;
-  display:block;
    float:left;
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   width:290px;
    margin:auto;
    text-align:left;
-   padding:2px;
-   width:290px;
 }
 
 .ancho {
@@ -83,7 +83,7 @@ a, a.disabled:hover, a:disabled:hover {
 
 .title {
   font-family: 'Pacifico', cursive;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 
@@ -93,7 +93,6 @@ a, a.disabled:hover, a:disabled:hover {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-
 }
 
 
@@ -125,18 +124,15 @@ a, a.disabled:hover, a:disabled:hover {
     color: #39c1bd;
 }
 
-.md-form input[type=email]:focus:not([readonly])+label{
+.md-form input[type=text]:focus:not([readonly])+label{
     color:whitesmoke;
 }
 
-.md-form input[type=password]:focus:not([readonly])+label{
-    color:whitesmoke;
-}
-
-.md-form textarea.md-textarea:focus:not([readonly])+label{
-    box-shadow: 0 1px 0 0#39c1bd ;
-}
 
 .form-control {
-    color: whitesmoke;
+  color: whitesmoke;
+}
+
+.title{
+  font-size: 25px;
 }
