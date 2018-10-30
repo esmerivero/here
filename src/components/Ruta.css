@@ -1,3 +1,4 @@
+
 html,
 body,
 header,
@@ -16,18 +17,18 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: whitesmoke !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: whitesmoke !important;
+    background-color: #39c1bd !important;
   }
-}
+  
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+  
+  @media (max-width: 2500px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #39c1bd !important;
+    }
+  }
 
 h1 {
   letter-spacing: 8px;
@@ -82,7 +83,7 @@ a, a.disabled:hover, a:disabled:hover {
 
 .title {
   font-family: 'Pacifico', cursive;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 
@@ -92,7 +93,6 @@ a, a.disabled:hover, a:disabled:hover {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-
 }
 
 
@@ -124,18 +124,15 @@ a, a.disabled:hover, a:disabled:hover {
     color: #39c1bd;
 }
 
-.md-form input[type=email]:focus:not([readonly])+label{
+.md-form input[type=text]:focus:not([readonly])+label{
     color:whitesmoke;
 }
 
-.md-form input[type=password]:focus:not([readonly])+label{
-    color:whitesmoke;
-}
-
-.md-form textarea.md-textarea:focus:not([readonly])+label{
-    box-shadow: 0 1px 0 0#39c1bd ;
-}
 
 .form-control {
-    color: whitesmoke;
+  color: whitesmoke;
+}
+
+.title{
+  font-size: 25px;
 }

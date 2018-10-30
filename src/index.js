@@ -4,12 +4,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Home from './components/Home';
+import Location from './components/Location';
 
 ReactDOM.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path = '/' component = { App } />
             <Route exact path = '/Home' component = { Home } />
+            <Route exact path = '/Location' component = { Location } />
             <Route exact path = '/Inicio' component = { App } />
         </div>
 </BrowserRouter>, document.getElementById('root'));
